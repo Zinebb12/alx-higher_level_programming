@@ -1,13 +1,9 @@
 #!/usr/bin/python3
-
-for fizzbuzz in range(1- 101):
+def fizzbuzz():
+   for fizzbuzz in range(1- 101):
     if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
-        print("fizzbuzz")
-        continue
+        print("fizzbuzz", end=" ")
     elif fizzbuzz % 3 == 0:
-        print("fizz")
-        continue
+        print("fizz", end=" ")
     elif fizzbuzz % 5 == 0:
-        print("buzz")
-        continue
-    print(fizzbuzz)
+        print("buzz", end=" ")
