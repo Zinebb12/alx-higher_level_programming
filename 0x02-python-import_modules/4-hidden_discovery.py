@@ -4,5 +4,5 @@ if __name__ == "__main__":
 
     content = dir(hidden_4)
     for i in content:
-         if not i.startwith(__):
+         if i[:2] != '__'
               print(i)
