@@ -3,6 +3,6 @@ if __name__ == "__main__":
     import hidden_4
 
     content = dir(hidden_4)
-    for title in content:
-         if title[:2] != "__"
-              print(title)
+    for i in content:
+        if i[:2] != "__":
+              print(i)
