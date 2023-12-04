@@ -1,6 +1,6 @@
 def add_tuple(tuple_a=(), tuple_b=()):
-    result_a = ()
-    result_b = ()
+    result_a = 0
+    result_b = 0
 #checking to tuple a if we can access it
     if len(tuple_a) >= 2:
         result_a = tuple_a[0] + tuple_a[1]
