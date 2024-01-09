@@ -5,7 +5,9 @@ this module is define a class
 
 
 class BaseGeometry:
-    """represents base geometry class"""
-    
+    """this class is conatain a public mothode
+    that print a message exception that told
+    a specific message
+    """
     def area(self):
         raise Exception("area() is not implemented")
