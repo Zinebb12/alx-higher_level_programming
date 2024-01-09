@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """
-defines a new class square a sub class of rectangle
+this module contain a class
+named Square that iherent from
+the Rectangle class
 """
-Rectangle = __import__('9-Rectangle').Rectangle
+Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
