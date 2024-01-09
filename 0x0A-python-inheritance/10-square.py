@@ -11,6 +11,6 @@ class Square(Rectangle):
     """class Square that iherent from a Rectangle class"""
     def __init__(self, size):
         """intialization of the size argument"""
-        self.integer_validation("size", size)
+        self.integer_validator("size", size)
         super().__init__(size, size)
         self.__size = size
