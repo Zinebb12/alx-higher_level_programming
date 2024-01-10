@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """
-ithis module conatin a function that
+this module conatin a function that
 returns Json representation of obj
 """
-
 
 
 def to_json_string(my_obj):
