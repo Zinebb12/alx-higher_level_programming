@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""description"""
+"""fetchs https://alx-intranet.hbtn.io/status."""
 
 import urllib.request
 
